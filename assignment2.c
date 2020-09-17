@@ -25,8 +25,10 @@ int main() {
 
 // 5. FUCTION DEFINTIONS
 void Name() {
-    scanf("");
-    printf("");
+    char name[20];
+    printf("\nGive me a name: ");
+    scanf("%19s", name);
+    printf("\nMy name is %s", name);
 }
 
 void Number() {
