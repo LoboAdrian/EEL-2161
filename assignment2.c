@@ -24,19 +24,28 @@ int main() {
 }
 
 // 5. FUCTION DEFINTIONS
-void Name() {
+void Name() { // Prompts user for a name, then returns it
     char name[20];
     printf("\nGive me a name: ");
     scanf("%19s", name);
     printf("\nMy name is %s", name);
 }
 
-void Number() {
-    scanf("");
-    printf("");
+void Number() { // Prompts user for a number, multiplies it by ten the returns the result
+    int num, newnum;
+    printf("\nEnter an integer: ");
+    scanf("%d", &num);
+    newnum = num * 10;
+    printf("\nYour number now is %d.", newnum);
 }
 
-void Initials() {
-    scanf("");
-    printf("");
+void Initials() { // Prompts user for their initials then makes the first one lowercase and the second one uppercase
+    char one, two;
+    printf("\nEnter your first initial: ");
+    scanf(" %c", &one);
+    one = tolower(one);
+    printf("\n Enter your second initial: ");
+    scanf(" %c", &two);
+    two = toupper(two);
+    printf("\nFirst initial: %c\nSecond initial %c", one, two);
 }
