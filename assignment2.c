@@ -25,13 +25,16 @@ int main() {
 
 // 5. FUCTION DEFINTIONS
 void Name() {
-    
+    scanf("");
+    printf("");
 }
 
 void Number() {
-
+    scanf("");
+    printf("");
 }
 
 void Initials() {
-
+    scanf("");
+    printf("");
 }
