@@ -44,7 +44,7 @@ void Initials() { // Prompts user for their initials then makes the first one lo
     printf("\nEnter your first initial: ");
     scanf(" %c", &one);
     one = tolower(one);
-    printf("\n Enter your second initial: ");
+    printf("\nEnter your second initial: ");
     scanf(" %c", &two);
     two = toupper(two);
     printf("\nFirst initial: %c\nSecond initial %c", one, two);
