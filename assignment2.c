@@ -28,7 +28,7 @@ void Name() { // Prompts user for a name, then returns it
     char name[20];
     printf("\nGive me a name: ");
     scanf("%19s", name);
-    printf("\nMy name is %s", name);
+    printf("\nMy name is %s\n\n", name);
 }
 
 void Number() { // Prompts user for a number, multiplies it by ten the returns the result
@@ -36,7 +36,7 @@ void Number() { // Prompts user for a number, multiplies it by ten the returns t
     printf("\nEnter an integer: ");
     scanf("%d", &num);
     newnum = num * 10;
-    printf("\nYour number now is %d.", newnum);
+    printf("\nYour number now is %d.\n\n", newnum);
 }
 
 void Initials() { // Prompts user for their initials then makes the first one lowercase and the second one uppercase
